@@ -13,6 +13,12 @@
                 <include>**/*.xml</include>
             </includes>
         </fileSet>
+        <fileSet filtered="true" packaged="true">
+            <directory>src/test/java</directory>
+            <includes>
+                <include>**/**</include>
+            </includes>
+        </fileSet>
         <fileSet filtered="true" packaged="false">
             <directory>src/test/</directory>
             <includes>
